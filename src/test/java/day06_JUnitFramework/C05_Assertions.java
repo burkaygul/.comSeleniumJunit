@@ -36,6 +36,8 @@ public class C05_Assertions {
         String actualUrl  =driver.getCurrentUrl();
 
         Assert.assertEquals(expectedUrl,actualUrl);
+
+        driver.close();
     }
 
     @Test
@@ -51,6 +53,8 @@ public class C05_Assertions {
         String actualTitle = driver.getTitle();
 
         Assert.assertFalse(actualTitle.contains(unExpectedTitle));
+
+        driver.close();
     }
 
     @Test
@@ -63,6 +67,8 @@ public class C05_Assertions {
         WebElement BestBuyLogo  = driver.findElement(By.xpath("(//*[@class='logo'])[1]"));
 
         Assert.assertTrue(BestBuyLogo.isDisplayed());
+
+        driver.close();
     }
 
     @Test
