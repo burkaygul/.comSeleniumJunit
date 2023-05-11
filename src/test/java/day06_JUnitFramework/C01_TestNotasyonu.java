@@ -74,8 +74,7 @@ public class C01_TestNotasyonu {
     }
 
     @Test
-    public void amazonTest(
-    ){
+    public void amazonTest(){
 
         mahserin4atlisi();
         driver.get("https://www.amazon.com");
