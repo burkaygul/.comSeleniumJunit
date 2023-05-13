@@ -19,7 +19,7 @@ public class TestBase {
     protected WebDriver driver;
 
     @Before
-    public void setup(){
+    public void setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -27,7 +27,7 @@ public class TestBase {
     }
 
     @After
-    public void teardown(){
-
+    public void teardown() {
+        // driver.close();
     }
 }
