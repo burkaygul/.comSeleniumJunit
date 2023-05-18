@@ -22,8 +22,7 @@ public class C04_WebTables {
         web-table larda locate islemi icin
         absolute.xpath'e benzer bir sekilde
 
-        //table/tbody/tr/td
-        siralasi ile locate yapariz
+        //table/tbody/tr/td         siralasi ile locate yapariz
         tr ve td icin [index] kullanilabilir
        */
 
