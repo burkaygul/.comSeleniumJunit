@@ -58,7 +58,8 @@ public class C02_WebTables extends TestBase {
             }
         }
 
-        //10. Page sayfasinda bir method olusturun, Test sayfasindan satir ve sutun
+        //10. Page sayfasinda bir method olusturun,
+        // Test sayfasindan satir ve sutun
         //sayisini girdigimde bana datayi yazdirsin
 
         dataYazdir( 3,  3);
